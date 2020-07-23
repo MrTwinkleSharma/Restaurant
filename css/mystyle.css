@@ -49,21 +49,6 @@ body{
 	vertical-align: middle;
 }
 
-/* Collapsible Menu Button Coding Starts here */
-
-a:hover,a:focus{
-	text-decoration: none;
-}
-.navbar-toggler:hover{
-	background-color: white;
-}
-.navbar-toggler-icon{
-	color: black;
-}
-.navbar-toggler{
-	background-color: red;
-	border: 1px solid black;
-}
 #nav-list{
 	margin-top: 10px;
 
@@ -147,6 +132,12 @@ a:hover,a:focus{
 }
 .navbar-brand p img{
 	height: 20px;
+}
+#collapsable-nav a { /* Collapsed nav menu glyph */
+	font-size: 1.2em;
+}
+#collapsable-nav a span{
+	font-size: 1em;
 }
 
 }
