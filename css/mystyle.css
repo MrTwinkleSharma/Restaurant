@@ -14,7 +14,6 @@ body{
 
 #logo-img{
 	background: url('../images/restaurant-logo.png');
-	border-radius:50%;
 	width: 150px;
 	height: 150px;
 	margin: 10px 15px 10px 0px;
@@ -51,15 +50,7 @@ body{
 }
 
 /* Collapsible Menu Button Coding Starts here */
-.style{
-	text-decoration: none;
-	font-size: 1.2em;
-	background-color: white;
-	color:black;
-	display: block;
-	text-align: center;
-	border: 1px solid black;
-}
+
 a:hover,a:focus{
 	text-decoration: none;
 }
@@ -114,5 +105,48 @@ a:hover,a:focus{
 .navbar-header button.navbar-toggle{
 	clear: both;
 	margin-top: -30px;
+
+}
+
+/*END OF HEADER*/
+
+/*Large device only*/
+@media (min-width: 1200px){
+
+}
+
+/*Medium device only*/
+@media (min-width: 992px) and (max-width: 1199px){
+#logo-img{
+	background: url('../images/restaurant-logo_medium.png');
+	width: 100px;
+	height: 100px;
+	margin: 5px 5px 5px 0px;
+}	
+}
+
+/*Small device only*/
+@media (min-width: 768px) and (max-width: 991px){
+	
+}
+
+/*Extra Small device only*/
+
+@media (max-width: 767px){
+.navbar-brand{
+	padding-right: 10px;
+	height:80px;
+}	
+.navbar-brand h1{
+	padding-right: 10px;
+	font-size: 5vw; /* 1 vw = 1% of view port */
+}
+.navbar-brand p{  /*Kosher ceritfied*/)
+	margin-top:  12px;
+	font-size: .6em;
+}
+.navbar-brand p img{
+	height: 20px;
+}
 
 }
