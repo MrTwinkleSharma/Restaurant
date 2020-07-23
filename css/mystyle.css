@@ -95,7 +95,7 @@ a:hover,a:focus{
 	margin-top: 5px;
 }
 
-#phone a {
+#phone a { /*Phone*/
 	text-align: right;
 	padding-bottom: 0;
 
@@ -103,7 +103,7 @@ a:hover,a:focus{
 
 #phone div{
 	/*We Deliver*/
-	color: green;
+	color: #557c3e;
 	text-align: right;
 	padding-right: 15px;
 }
